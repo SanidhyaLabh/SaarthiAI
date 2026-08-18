@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --app-primary: #fde400;
+  --app-bg: #0e0e0e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  color: #e2e2e2;
+  font-family: 'Atkinson Hyperlegible', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility Focus Rings */
+:focus-visible {
+  outline: 4px solid #fde400;
+  outline-offset: 3px;
+}
+
+/* Prevent double-tap zoom on mobile while preserving accessibility */
+html {
+  touch-action: manipulation;
+}
+
+/* Custom Scrollbar for Settings */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #131313;
+}
+::-webkit-scrollbar-thumb {
+  background: #fde400;
+  border-radius: 4px;
+}
