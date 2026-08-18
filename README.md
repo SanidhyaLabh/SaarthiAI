@@ -78,8 +78,3 @@ Powered by Google Gemini Multimodal Intelligence across 4 primary domains:
 
 
 
-## 👥 Authors & Acknowledgments
-
-- **Developed by**: [Sanidhya Labh](https://github.com/SanidhyaLabh)
-- **Video Walkthrough**: [Watch on YouTube](https://www.youtube.com/watch?v=5xGxPEjW8Hg)
-- Built with ❤️ to make technology universally accessible for everyone.
